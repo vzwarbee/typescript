@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../public/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../public/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/style/main.css">
+    <title>Game</title>
+</head>
+
+<body id="choi">
+    <div class="text-light home-container vi-vn">
+        <div class="home-content">
+            <video src="https://webstatic.hoyoverse.com/upload/contentweb/2020/09/25/c83e1d727f16a10a35adfbb840746a34_3862078340648314834.mp4" muted="muted" loop="loop" autoplay="autoplay" poster="https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200918/2020091816411789749.jpg" class="bg-video"></video>
+
+<div class="account-container" >
+<h3 class="text-center text-dark">Hello: <span class="player_name"></span></h3> 
+    <h3 class=" text-center text-dark" id="timer"></h3>
+
+
+<div class="container align-items-center justify-content-center">
+  <div class="radio-wrapper">
+    <input class="input btn-reset" name="btn" id="value-1" type="radio">
+    <div class="btn ">
+      <span aria-hidden="">_</span>Reset_
+      <span class="btn__glitch" aria-hidden="">_Cyber🦾</span>
+      <label class="number">r1</label>
+    </div>
+  </div>
+  <div class="radio-wrapper">
+    <input class="input btn-cancel " name="btn" id="value-2" checked="true" type="radio">
+    <div class="btn">
+      _Hủy<span aria-hidden="">_</span>
+      <span class="btn__glitch" aria-hidden="">_R_a_d_i_o_</span>
+      <label class="number">r2</label>
+    </div>
+  </div>
+  <div class="radio-wrapper">
+    <a href="#bang-diem" class="input btn-cancel " name="btn" id="value-2" checked="true" type="radio"></a>
+    <div class="btn ">
+      _Điểm<span aria-hidden="">_</span>
+      <span class="btn__glitch" aria-hidden="">_R_a_d_i_o_</span>
+      <label class="number">r2</label>
+    </div>
+  </div>
+</div>
+
+
+<h3 class="score text-center text-dark">Score: <span id="current-score"></span></h3>
+
+
+    <div class="wrap-game">
+    
+</div>
+
+
+</div>
+    </div>
+
+
+        
+        
+    </div>
+        <div class="container-fluid  container-transcript flex-column gap-3" id="bang-diem">
+             <div class="radio-wrapper">
+    <a href="#choi" class="input btn-cancel " name="btn" id="value-2" checked="true" type="radio"></a>
+    <div class="btn ">
+      _Chơi<span aria-hidden="">_</span>
+      <span class="btn__glitch" aria-hidden="">_R_a_d_i_o_</span>
+      <label class="number">r2</label>
+    </div>
+  </div>
+        <div class="list-group w-25">
+            <a href="#" class="list-group-item list-group-item-action active text-center" aria-current="true">
+                Tên người chơi
+            </a>
+            <div id="name-table">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    
+    <script src="../dist/app.js"></script>
+
+</body>
+
+</html>
